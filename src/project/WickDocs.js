@@ -595,8 +595,7 @@ window.wickDocs =
             }]
         }
       ]
-    },*/
-    /*{
+    },*/{
       "name": "Scope",
       "properties": [
         {
@@ -624,7 +623,7 @@ window.wickDocs =
           "return": null
         }
       ]
-    },*/
+    },
     {
       "name": "Utilities",
       "properties": [
