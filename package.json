@@ -1,0 +1,20 @@
+{
+  "name": "wick-editor-2018",
+  "version": "1.0.0",
+  "description": "This repo is no longer active, please go to the new one: https://github.com/wicklets/wick-editor",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}
