@@ -40,7 +40,7 @@ var GuiActionHandler = function (wickEditor) {
     }
 
     /* GuiAction definition. All possible actions performable through interacting
-    with the Wick Editor GUI are expected to be well defined by this structure .*/
+    with the Tiny Animator GUI are expected to be well defined by this structure .*/
     var GuiAction = function (hotkeys, title, requiredParams, action) {
 
         var that = this;

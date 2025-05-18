@@ -15,7 +15,7 @@
     You should have received a copy of the GNU General Public License
     along with Wick.  If not, see <http://www.gnu.org/licenses/>. */
 
-/* WickActionHandler - General Logic for how undo and redo is handled in the Wick editor. */
+/* WickActionHandler - General Logic for how undo and redo is handled in the Tiny Animator. */
 /* Only add routines to WickActionHandler if they:
      (1) Change the state of the project and
      (2) Can be undone/redone */

@@ -5974,7 +5974,7 @@ WickProject.prototype.getAsJSON = function (callback, format) {
     // Encode scripts/text to avoid JSON format problems
     self.rootObject.encodeStrings();
 
-    // Add some browser/OS/wick editor version info for debugging other ppl's projects
+    // Add some browser/OS/Tiny Animator version info for debugging other ppl's projects
     self.metaInfo = getBrowserAndOSInfo();
     self.metaInfo.wickVersion = wickEditor.version;
     self.metaInfo.dateSaved = new Date().toGMTString();

@@ -261,7 +261,7 @@ var MenuBarInterface = function (wickEditor) {
     }
 
     this.syncWithEditorState = function () {
-        document.title = "Wick Editor: " + wickEditor.project.name
+        document.title = "Tiny Animator: " + wickEditor.project.name
 
         if(projectNameElem) {
             if(wickEditor.project.unsaved) {

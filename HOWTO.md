@@ -1,10 +1,10 @@
-# Wick Editor v16
+# Tiny Animator v16
 
 **Note:** The `Modifier` key in this document refers to the `Control` key in Windows, and the `Command` key on MacOS.
 
 ## Brower Support
 
-- All features of the Wick Editor are supported in Firefox and Chrome.
+- All features of the Tiny Animator are supported in Firefox and Chrome.
 - All features of the Wick Player are supported by most major browsers, including mobile browsers.
 
 ## Canvas

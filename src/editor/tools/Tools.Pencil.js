@@ -98,6 +98,7 @@ Tools.Pencil = function (wickEditor) {
             path.add(event.point)
             
             if(path.segments.length > 2) {
+                path.simplify();
                 path.smooth();
 
                 /*if(wickEditor.settings.pencilSmoothing > 0) {

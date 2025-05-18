@@ -21,9 +21,9 @@ var WickEditor = function () {
 
     var self = this;
 
-    self.version = "0.15";
-    document.getElementById('wick-editor-version').innerHTML = 'Wick Editor ' + self.version;
-    console.log("Wick Editor version " + self.version)
+    self.version = "0.1a";
+    document.getElementById('wick-editor-version').innerHTML = 'Tiny Animator ' + self.version;
+    console.log("Tiny Animator version " + self.version)
     window.wickVersion = self.version;
 
     // Friendly console message ~~~
