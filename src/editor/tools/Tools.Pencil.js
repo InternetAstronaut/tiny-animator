@@ -99,7 +99,7 @@ Tools.Pencil = function (wickEditor) {
             
             if(path.segments.length > 2) {
                 path.simplify();
-                path.smooth();
+                // path.smooth();
 
                 /*if(wickEditor.settings.pencilSmoothing > 0) {
                     var t = wickEditor.settings.strokeWidth;
