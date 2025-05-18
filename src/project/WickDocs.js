@@ -248,6 +248,14 @@ window.wickDocs =
             "description": "A clone of the object that called clone()."
           }
         },
+        // {
+        //   "name": "moveSteps()",
+        //   "description": "Moves the object in its rotation.",
+        //   "example": "// Moves it a little!\nthis.moveSteps(10);",
+        //   "snippet": "this.moveSteps(10);",
+        //   "args": [],
+        //   "return": null
+        // },
         {
           "name": "clones",
           "description": "An array of all of the clones of the WickObject.",
@@ -298,7 +306,7 @@ window.wickDocs =
             "description": "An object holdng the information about the collision."
           }
         },*/
-        /*{
+        {
           "name": "pointTo(x,y)",
           "description": "Rotates this object so that it is facing in the direction of the given point (x,y)",
           "example": "// Make this object point towards the mouse\nthis.pointTo(mouseX, mouseY)",
@@ -316,7 +324,7 @@ window.wickDocs =
             }
           ],
           "return": null
-        },*/
+        },
         {
           "name": "play()",
           "description": "Plays this objects timeline (only usable for Clips). ",

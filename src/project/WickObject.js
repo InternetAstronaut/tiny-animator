@@ -279,6 +279,15 @@ WickObject.addPrototypes = function (obj) {
     }
 }
 
+WickObject.prototype.pointTo = function(x,y) {
+    this.rotation = Math.atan2(this.x, this.y) * 180/Math.PI;
+}
+
+// Deprecated.
+WickObject.prototype.moveSteps = function(steps) {
+    this.delete();
+}
+
 /* Encodes scripts and strings to avoid JSON format problems */
 WickObject.prototype.encodeStrings = function () {
 
